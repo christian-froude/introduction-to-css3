@@ -1,0 +1,155 @@
+body{
+	width:960px;
+	margin: 4px;
+	padding: 4px;
+}
+
+header{
+	width:840px;
+	height: 190px;
+	margin-bottom: 4px;
+	padding: 1px 60px;
+	background-color: #061048;
+	background-image: url("../images/flywheel.jpg");
+	/* Please ensure the URL is written how you have it stored on your computer, so that the image can be accessed. 
+	For example, if you have it stored as "images/flywheel.jpg" or "flywheel.jpg", please change it as such. */
+}
+
+h1{
+	color: #ffe69b;
+	font-size: 50px;
+	font-family: Verdana, Arial, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav a{
+	display: inline-block;
+	width: 169px;
+	height: 24px;
+	margin: 2px;
+	padding: 14px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 15px;
+	border-color: #ffffff;
+	background-color: #00c9e28f;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center; 
+}
+
+.active{
+	background-color: #ffc107c2;
+}
+
+.left{
+	display: inline-block;
+	float: left;
+	width: 250px;
+	height: 434px;
+	margin-right: 4px;
+	padding: 5px 0px 5px 28px;
+	background-color: #89d3f5;
+}
+
+.left a{
+	background-color: #89d3f5;
+	/* Background color set to match that of .left to avoid having link backgrounds in that area. */
+}
+
+img{
+	width: 214px;
+	margin: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ffffff;
+}
+
+.right{
+	display: inline-block;
+	float; left;
+	width: 678px;
+	height: 444px;
+	background-color: #fff27d;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+a{
+	background-color: #00c9e28f;
+	color: #323738;
+}
+
+a:hover{
+	color: #ff7b29;
+}
+
+h2{
+	margin: 20px;
+	color: #15247b;
+	font-family: Verdana, Arial, sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+p{
+	margin: 12px 36px;
+	font-size: 17px;
+	text-align: justify;
+}
+
+table{
+	width: 600px;
+	margin: 0 auto;
+	padding: 14px 4px;
+	font-size: 15px;
+}
+
+th{
+	padding: 4px 6px;
+	background-color: #ff7b29;
+	background: -webkit-linear-gradient(#ff7b29, #e8b005);
+	background: -o-linear-gradient(#ff7b29, #e8b005);
+	background: -moz-linear-gradient(#ff7b29, #e8b005);
+	background: -ms-linear-gradient(#ff7b29, #e8b005);
+	border-style: solid;
+	border-width: 1px 1px 4px 1px;
+	border-color: #15247b;
+	border-radius: 10px 10px 0px 0px;
+	color: #061048;
+	font-family: Verdana, Arial, sans-serif;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: center; 
+}
+
+tr:nth-child(1n+2){
+	opacity: .8;
+}
+
+tr:hover{
+	opacity: 1;
+}
+
+td{
+	color: #061048;
+	background-color: #89d3f5;
+	border-radius: 2px;
+	padding: 2px 3px;
+	text-align: center;
+	text-shadow: 1px 1px #24338c;
+}
+
+td:first-child{
+	text-align: left;
+}
+
+ul{
+	margin: 18px 18px;
+	font-size: 17px;
+}
+
+/* If my background image hasn't loaded correctly, please check the comment left on line 14 */
